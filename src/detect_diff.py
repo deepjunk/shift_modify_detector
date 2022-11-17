@@ -1,16 +1,18 @@
-from logging import INFO, DEBUG
 import argparse
-from distutils.util import strtobool
-import sys
-import os
-from os.path import isfile
-import numpy as np
-import cv2
-from tqdm import tqdm
 import csv
+import os
+import sys
+from distutils.util import strtobool
+from logging import DEBUG, INFO
+from os.path import isfile
+
+import cv2
+import numpy as np
+from tqdm import tqdm
 
 import util
 from log_mod import modify_logger
+
 # ログの追加フォーマット
 extra_args = {}
 extra_args['tab'] = '\t'

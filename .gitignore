@@ -14,3 +14,4 @@ tests/htmlcov
 tests/create_cov.bat
 docs/*
 !docs/html
+data/
